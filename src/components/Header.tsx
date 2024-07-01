@@ -8,7 +8,7 @@ const Header = () => {
     smoothscroll.polyfill();
   }, []);
 
-  const handleScroll = (event, targetId) => {
+  const handleScroll = (event: React.UIEvent<HTMLDivElement> | React.MouseEvent<HTMLAnchorElement>, targetId: string) => {
     event.preventDefault();
     const targetElement = document.getElementById(targetId);
     if (targetElement) {

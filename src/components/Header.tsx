@@ -1,3 +1,4 @@
+'use client'
 import { useEffect } from 'react';
 import Link from 'next/link';
 import smoothscroll from 'smoothscroll-polyfill';
@@ -10,7 +11,7 @@ const Header = () => {
   const handleScroll = (
     event: React.UIEvent<HTMLDivElement> | 
            React.MouseEvent<HTMLAnchorElement> | 
-           React.MouseEvent<HTMLSpanElement>,  // Added HTMLSpanElement type
+           React.MouseEvent<HTMLSpanElement>,
     targetId: string
   ) => {
     event.preventDefault();

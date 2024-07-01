@@ -1,4 +1,3 @@
-'use client'
 import { useEffect } from 'react';
 import Link from 'next/link';
 import smoothscroll from 'smoothscroll-polyfill';
@@ -8,7 +7,12 @@ const Header = () => {
     smoothscroll.polyfill();
   }, []);
 
-  const handleScroll = (event: React.UIEvent<HTMLDivElement> | React.MouseEvent<HTMLAnchorElement>, targetId: string) => {
+  const handleScroll = (
+    event: React.UIEvent<HTMLDivElement> | 
+           React.MouseEvent<HTMLAnchorElement> | 
+           React.MouseEvent<HTMLSpanElement>,  // Added HTMLSpanElement type
+    targetId: string
+  ) => {
     event.preventDefault();
     const targetElement = document.getElementById(targetId);
     if (targetElement) {
@@ -27,6 +31,7 @@ const Header = () => {
             <ul className='flex flex-nowrap gap-5'>
                 <li>
                   <Link href="#about" passHref>
+                    {/* Updated to include HTMLSpanElement */}
                     <span onClick={(event) => handleScroll(event, 'about')}>About</span>
                   </Link>
                 </li>
@@ -40,4 +45,4 @@ const Header = () => {
   )
 }
 
-export default Header
+export default Header;

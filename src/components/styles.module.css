@@ -1,0 +1,4 @@
+span.textOutline {
+    -webkit-text-stroke: 1px #fff;
+    color: transparent;
+}

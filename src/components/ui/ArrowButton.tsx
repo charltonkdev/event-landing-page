@@ -1,6 +1,6 @@
 // components/ui/ArrowButton.tsx
 import { GoArrowUpRight } from 'react-icons/go';
-import { FC, PropsWithChildren } from 'react';
+import type { FC, PropsWithChildren } from 'react';
 
 const ArrowButton: FC<PropsWithChildren<{}>> = ({ children }) => {
   return (

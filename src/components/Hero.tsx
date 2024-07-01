@@ -1,6 +1,6 @@
 import React from 'react'
 import Styles from './styles.module.css' 
-import { GoArrowUpRight } from "react-icons/go";
+import ArrowButton from './ui/ArrowButton'
 
 const Hero = () => {
   return (
@@ -10,10 +10,7 @@ const Hero = () => {
             Summertime Music <br/>
             <span className={`${Styles.textOutline} bg-clip-text text-transparent backdrop-blur-lg bg-white bg-opacity-20`}>Festival 2024</span>
         </h1>
-        {/* biome-ignore lint/a11y/useButtonType: <explanation> */}
-        <button className='relative w-fit px-5 py-3 mt-10 border rounded-full hover:bg-white hover:text-black duration-500 flex justify-center pl-14 hover:pl-5 hover:pr-14 group'>
-            <GoArrowUpRight className='absolute group-hover:left-[75%] left-[5px] top-[6px] bg-white duration-500 group-hover:rotate-45 text-black rounded-full text-4xl mr-3 p-1'/>BUY TICKET
-        </button>
+        <ArrowButton>BUY TICKET</ArrowButton>
     </div>
   )
 }

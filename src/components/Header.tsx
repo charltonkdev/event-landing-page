@@ -1,16 +1,35 @@
-import React from 'react'
+'use client'
+import { useEffect } from 'react';
+import Link from 'next/link';
+import smoothscroll from 'smoothscroll-polyfill';
 
 const Header = () => {
+  useEffect(() => {
+    smoothscroll.polyfill();
+  }, []);
+
+  const handleScroll = (event, targetId) => {
+    event.preventDefault();
+    const targetElement = document.getElementById(targetId);
+    if (targetElement) {
+      targetElement.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
+
   return (
-    <div className='fixed w-[88vw] top 10px mx-auto py-5 flex flex-col gap-5 md:flex-row justify-between items-center '>
+    <div className='fixed w-[88vw] top 10px mx-auto py-5 flex flex-col gap-5 md:flex-row justify-between items-center z-50 bg-transparent'>
         <div className='flex relative'>
-            <h1 className='text-2xl font-bold'>
+            <h1 className='text-2xl font-bold mix-blend-difference drop-shadow-xl'>
             Summertime
             </h1>
         </div>
-        <div className='flex px-6 py-4 justify-center bg-white bg-opacity-10 backdrop-blur-lg rounded-full'>
+        <div className='flex px-6 py-4 justify-center bg-white bg-opacity-60 backdrop-blur-lg rounded-full text-slate-600 font-semibold'>
             <ul className='flex flex-nowrap gap-5'>
-                <li>About</li>
+                <li>
+                  <Link href="#about" passHref>
+                    <span onClick={(event) => handleScroll(event, 'about')}>About</span>
+                  </Link>
+                </li>
                 <li>Buy Ticket</li>
                 <li>Venue</li>
                 <li>Gallery</li>

@@ -2,3 +2,26 @@ span.textOutline {
     -webkit-text-stroke: 1px #fff;
     color: transparent;
 }
+
+/* styles.module.css */
+.masonry-item {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  .masonry-item::after {
+    content: '';
+    display: block;
+    padding-bottom: 100%; /* Adjust based on desired aspect ratio */
+  }
+  
+  .masonry-item img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  

@@ -1,27 +1,31 @@
-span.textOutline {
-    -webkit-text-stroke: 1px #fff;
-    color: transparent;
+h1.logoHeading {
+  -webkit-text-stroke: 0.5px #000;
 }
 
-/* styles.module.css */
-.masonry-item {
-    position: relative;
-    width: 100%;
-    overflow: hidden;
-  }
-  
-  .masonry-item::after {
-    content: '';
-    display: block;
-    padding-bottom: 100%; /* Adjust based on desired aspect ratio */
-  }
-  
-  .masonry-item img {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-  }
-  
+span.textOutline {
+  -webkit-text-stroke: 1px #fff;
+  color: transparent;
+}
+
+.galleryBox img {
+  margin-bottom: 12px;
+}
+
+.footerlink li {
+  cursor: pointer;
+  width: fit-content;
+}
+
+.footerlink li:after {
+  content: '';
+  width: 0%;
+  position: relative;
+  height: 1px;
+  background-color: #fff;
+  display: block;
+  transition: .3s ease-in-out;
+}
+
+.footerlink li:hover:after {
+  width: 100%;
+}

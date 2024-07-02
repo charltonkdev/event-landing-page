@@ -21,6 +21,6 @@
       "@/*": ["./src/*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "src/components/ui/ArrowButton.jsx"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "src/components/ui/ArrowButton.jsx", "src/components/Tickets.tsx", "src/components/About.tsx", "src/components/Gallery.tsx", "src/components/Hero.tsx", "src/components/Header.tsx"],
   "exclude": ["node_modules"]
 }

@@ -14,7 +14,7 @@ interface TextParallaxProps {
 const TextParallax: React.FC<TextParallaxProps> = ({ 
   text1 = "Summertime Music Festival 2024",
   text2 = "Summertime Music Festival 2024",
-  speed = 0.05,
+  speed = 0.02,
   endScroll: propEndScroll
 }) => {
 

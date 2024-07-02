@@ -6,7 +6,7 @@
 }
 .sliderContainer{
   position: absolute;
-  top: calc(100vh - 350px);
+  top: calc(100vh - 550px);
   
 }
 
@@ -31,16 +31,8 @@
   top: 0;
 }
 
-@media (max-width: 1366px) and (min-width: 999px) {
-  .sliderContainer{
-    top: calc(100vh - 550px);
-  }
-}
 @media (max-width: 768px) {
-  .sliderContainer{
-    top: calc(100vh - 750px);
-  }
   .slider p{
-    font-size: 45px;
+    font-size: 70px;
   }
 }

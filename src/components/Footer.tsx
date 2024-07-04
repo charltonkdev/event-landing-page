@@ -32,7 +32,7 @@ export const Footer = () => {
                 </h4>
                 <span className="text-sm font-light">Bring People Together</span>
             </div>
-            <div className="flex flex-col mx-auto flex-grow items-start md:items-center mb-12">
+            <div className="flex flex-col w-full mx-auto md:flex-grow items-start md:items-center mb-12">
                 <h4 className="text-xl font-bold mb-4">
                     Quick Links
                 </h4>

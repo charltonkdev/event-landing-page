@@ -9,7 +9,7 @@ export const Location = () => {
             Summertime Music Festival 2024 wil be held at Waterfront Park, a stunning waterfront location in the heart of UK. Easily accessible by public transportation, with ample parking available.
         </h2>
         <ArrowButton>VIEW LOCATION</ArrowButton>
-        <div className="relative w-full h-[60vh] overflow-hidden rounded-3xl">
+        <div className="relative w-full md:h-[60vh] overflow-hidden rounded-3xl">
         <video className="video-bg" autoPlay muted loop>
         <source src="/eventlocation.mp4" type="video/mp4" />
         Your browser does not support the video tag.

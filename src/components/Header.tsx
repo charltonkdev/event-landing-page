@@ -29,7 +29,7 @@ export const Header = () => {
           Summertime
         </h1>
       </div>
-      <div className='flex px-6 py-4 justify-center bg-white bg-opacity-60 backdrop-blur-lg rounded-full text-slate-900 font-semibold'>
+      <div className='flex px-6 py-4 justify-center bg-white bg-opacity-60 backdrop-blur-lg rounded-full text-slate-900 font-semibold text-sm'>
         <ul className='flex flex-nowrap gap-5'>
           <li>
             <Link href="#about" passHref>

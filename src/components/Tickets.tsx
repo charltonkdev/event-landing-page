@@ -3,7 +3,7 @@ import ArrowButton from './ui/ArrowButton'
 
 export const Tickets = () => {
   return (
-    <div id="ticket" className="flex flex-col w-full h-auto relative p-24 gap-6 text-black bg-white overflow-hidden">
+    <div id="ticket" className="flex flex-col w-full h-auto relative px-12 py-24 md:p-24 gap-6 text-black bg-white overflow-hidden">
         <p>Tickets</p>
         <h2 className='text-2xl md:text-4xl w-full md:max-w-3xl '>
             Choose from a variety of tickets options organized by Summertime Events.

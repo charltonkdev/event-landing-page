@@ -25,7 +25,7 @@ export const Footer = () => {
     };
 
     return (
-        <div className="grid grid-cols-1 md:grid-cols-3 w-full p-24 bg-slate-950 border-t-[1px] border-slate-800">
+        <div className="grid grid-cols-1 md:grid-cols-3 w-full px-12 py-24 md:p-24 bg-slate-950 border-t-[1px] border-slate-800">
             <div className="flex flex-col mb-12">
                 <h4 className="text-4xl font-bold">
                     Summertime

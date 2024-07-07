@@ -25,7 +25,7 @@ export const Contact = () => {
     };
 
     return (
-        <div id="contact" className='bg-slate-950 flex flex-col w-full h-auto relative p-24 gap-6 overflow-hidden'>
+        <div id="contact" className='bg-slate-950 flex flex-col w-full h-auto relative px-12 py-24 md:p-24 gap-6 overflow-hidden'>
             <p>Contact Us</p>
             <h2 className='text-2xl md:text-4xl w-full md:max-w-3xl'>
                 Have questions? We&apos;re here to help.

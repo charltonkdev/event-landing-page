@@ -1,14 +1,14 @@
-# Event Landing Page
+![image](https://github.com/user-attachments/assets/d6d56ab8-0daa-4479-8b3d-595027e27ab6)# Event Landing Page
 
 Welcome to the **Event Landing Page** project! This is a responsive and visually appealing landing page template built using **Next.js**. It's designed for promoting events such as conferences, workshops, or meetups, offering a sleek and professional interface to highlight key details like the schedule, speakers, and registration options.
 
-![Event Landing Page Screenshot](https://via.placeholder.com/800x400)  
+![Event Landing Page Screenshot](https://raw.githubusercontent.com/charltonkdev/event-landing-page/main/public/about.webp)  
 _A screenshot of the live demo showcasing the Event Landing Page_
 
 ## 🔗 Live Demo
 
 Check out the live version of the Event Landing Page:  
-[**Live Demo**](https://your-live-demo-url-here.com)
+[**Live Demo**](https://event01.vercel.app/)
 
 ## 🚀 Purpose
 
@@ -33,10 +33,10 @@ This project utilizes the following technologies:
 ## 📸 Screenshots
 
 ### Desktop View  
-![Desktop View](https://via.placeholder.com/1200x600)
+![Desktop View](https://github.com/user-attachments/assets/d6d56ab8-0daa-4479-8b3d-595027e27ab6)
 
 ### Mobile View  
-![Mobile View](https://via.placeholder.com/400x800)
+![Mobile View](https://raw.githubusercontent.com/charltonkdev/event-landing-page/main/public/event-mobile.webp)
 
 ## 📝 Setup & Customization
 
